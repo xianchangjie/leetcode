@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03be1b53-432a-4496-9094-d7cb1b4c6da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stack/validParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithm/TwoSum.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,34 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="validParentheses.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stack" />
+      <option name="MAIN_CLASS_NAME" value="stack.validParentheses" />
+      <option name="METHOD_NAME" value="twoSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.validParentheses.twoSum" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -85,12 +108,25 @@
       <option name="presentableId" value="Default" />
       <updated>1579242949645</updated>
       <workItem from="1579242953458" duration="186000" />
-      <workItem from="1579243146816" duration="282000" />
+      <workItem from="1579243146816" duration="742000" />
+      <workItem from="1579248784714" duration="1070000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1579243435231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579243435231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="202" width="822" height="669" key="#Project_Structure" timestamp="1579243399840">
@@ -105,14 +141,34 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="606" y="424" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.1027@0.23.1680.1027" timestamp="1579243410391" />
-    <state x="491" y="160" key="CommitChangelistDialog2" timestamp="1579243390291">
+    <state x="491" y="160" key="CommitChangelistDialog2" timestamp="1579253083324">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="491" y="160" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1579243390291" />
+    <state x="491" y="160" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1579253083324" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1579243889965">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1579243889965" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1579243889965">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1579243889965" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1579243889964">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1579243889964" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1579243889965">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1579243889965" />
     <state x="328" y="118" key="SettingsEditor" timestamp="1579243117083">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1579243117083" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1579243438395">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1579243438395" />
     <state x="573" y="271" key="search.everywhere.popup" timestamp="1579243267950">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
